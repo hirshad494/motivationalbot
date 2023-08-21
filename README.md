@@ -41,8 +41,17 @@ To keep the bot online, use the following steps:
 ```python
 from keep_alive import keep_alive
 
-1. Call the keep_alive() function before running the bot:
+3. Call the keep_alive() function before running the bot:
 keep_alive()
 
 Remember to replace placeholders like `your_bot_token_here` with actual values. You can also add more details about your bot, its commands, and any other information you'd like to provide to users.
 
+### Using UptimeRobot
+
+[UptimeRobot](https://uptimerobot.com/) is a service that monitors your bot's uptime and sends HTTP requests at specified intervals to keep it online. To use UptimeRobot:
+
+1. Sign up for an UptimeRobot account and log in.
+
+2. Create a new monitor for your bot's web server URL, typically `https://your-bot-name.your-replit-username.repl.co/`.
+
+3. Set the monitor's interval to a value that keeps your bot online, such as every 5 minutes.
