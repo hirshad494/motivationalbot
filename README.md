@@ -38,7 +38,7 @@ To keep the bot online, use the following steps:
 1. Add the `keep_alive.py` script to your project directory.
 
 2. Import the `keep_alive` function in your main script:
-```python
+
 from keep_alive import keep_alive
 
 3. Call the keep_alive() function before running the bot:
